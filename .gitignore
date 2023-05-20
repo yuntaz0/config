@@ -1,5 +1,6 @@
 # Ignore all files except the necessary configurations
 /*
 !/.gitignore
-!/fish/
+!/fish/*
+/fish/fish_variables
 !/nvim/
