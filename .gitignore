@@ -1,0 +1,5 @@
+# ignore all files except the necessary configurations
+/*
+!/.gitignore
+!/nvim/
+!/fish/
