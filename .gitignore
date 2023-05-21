@@ -3,3 +3,5 @@
 !/.gitignore
 !/nvim/
 !/fish/
+/fish/fish_variables
+*tmp*
