@@ -1,6 +1,8 @@
-# Ignore all files except the necessary configurations
+# ignore all files except the necessary configurations
 /*
 !/.gitignore
-!/fish/*
-/fish/fish_variables
 !/nvim/
+/nvim/lazy-lock.json
+!/fish/
+/fish/fish_variables
+*tmp*
