@@ -1,8 +1,12 @@
-function mcd
-	if test (count $argv) -eq 0
-		echo "Please provide a directory neme"
-		return 1
-	end
-	mkdir -p $argv[1]
-	cd $argv[1]
+function mkdir -d "Create a directory and set CWD"
+    command mkdir $argv
+    if test $status = 0
+        switch $argv[(count $argv)]
+            case '-*'
+
+            case '*'
+                cd $argv[(count $argv)]
+                return
+        end
+    end
 end
